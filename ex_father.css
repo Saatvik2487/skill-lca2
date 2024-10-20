@@ -1,4 +1,98 @@
-#gallery
-{
-    text-align: center;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    align-content: center;
 }
+
+/* title */
+h1.display-3 {
+    color: #060505;
+    margin-bottom: 10px;
+}
+
+/*sub h before 1st img*/
+h2.display-5 {
+    color: #ffffff;
+}
+
+/*content in second grey box*/
+p.lead {
+    font-size: 1.2rem;
+    color: rgb(219, 146, 146);
+}
+
+/* links */
+a.icon-link {
+    font-size: 1.1rem;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a.icon-link:hover {
+    color: #003f82;
+}
+
+/* space above carousel */
+.container {
+    margin-top: 70px;
+}
+
+/* Carousel Image Styling */
+.carousel-item img {
+    width: 100%;           
+    height: 400px;        
+    object-fit: contain;   
+    margin: 0 auto;        
+    border-radius: 10px;   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+    background-color: #391313;  
+   
+}
+
+
+/* Cards for Information */
+.text-bg-dark {
+    background-color: #1c1c1c;
+    color: #e0e0e0;
+    border-radius: 15px;
+    margin: 20px 17px;
+}
+
+.text-bg-dark img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+/* Email Link Styling */
+a.icon-link.d-flex {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #727878;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.2s;
+}
+
+a.icon-link.d-flex:hover {
+    background-color: #36ba34;
+}
+
+/* Gallery Section */
+#gallery {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#gallery h1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #444;
+}
+
